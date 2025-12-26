@@ -58,7 +58,7 @@ export const HERO = {
   ctaPrimaryLabel: "View Projects",
   ctaPrimaryHref: "/projects",
   ctaSecondaryLabel: "Download Resume",
-  ctaSecondaryHref: "/resume.pdf",
+  ctaSecondaryHref: "/Sharayu_Rasal_Resume.pdf",
   ctaTertiaryLabel: "Contact",
   ctaTertiaryHref: "/contact",
 } as const;
@@ -66,7 +66,7 @@ export const HERO = {
 export const EDUCATION: EducationItem[] = [
   {
     school: "New York University",
-    degree: "Master of Engineering in Computer Science (GPA: 3.67)",
+    degree: "Master of Engineering in Computer Science (GPA: 3.78)",
     location: "New York, USA",
     period: "",
     highlights: [

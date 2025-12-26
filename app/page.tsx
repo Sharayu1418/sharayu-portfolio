@@ -275,12 +275,13 @@ export default function Home() {
             variants={item}
             className="pt-4"
           >
-            <Link
+            <a
               href={HERO.ctaSecondaryHref}
+              download="Sharayu_Rasal_Resume.pdf"
               className="inline-flex items-center justify-center rounded-full border border-white/20 bg-white/5 px-5 py-2.5 text-sm font-medium text-slate-100 backdrop-blur-md transition hover:bg-white/10"
             >
               {HERO.ctaSecondaryLabel}
-            </Link>
+            </a>
           </motion.div>
         </div>
 
@@ -960,7 +961,7 @@ function SkillsSection() {
       </header>
 
       <section className="space-y-4">
-        <div className="space-y-4">
+        <div className="grid gap-4 md:grid-cols-2">
           {SKILL_CATEGORIES.map((category) => (
             <PanCardDown
               key={category.name}
