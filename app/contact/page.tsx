@@ -2,7 +2,7 @@
 
 import { useState, type FormEvent } from "react";
 import { motion } from "framer-motion";
-import emailjs, { type EmailJSResponseStatus } from "emailjs-com";
+import emailjs, { type EmailJSResponseStatus } from "@emailjs/browser";
 
 const container = {
   hidden: { opacity: 0, y: 16 },
