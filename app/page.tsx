@@ -110,7 +110,7 @@ function PanCardDown({
 }) {
   const direction = useScrollDirection();
   const controls = useAnimation();
-  const ref = useRef<HTMLArticleElement | null>(null);
+  const ref = useRef<HTMLElement | null>(null);
   const inView = useInView(ref, { amount: 0.35 });
   const hasBaseline = useRef(false);
 
